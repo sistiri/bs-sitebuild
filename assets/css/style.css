@@ -1,0 +1,121 @@
+/* A címsorok és menük betűtípusa: Catamaran, Helvetica, Arial, sans-serif
+Gombok szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif
+Bekezdések: Muli, Helvetica, Arial, sans-serif
+A Footer egységesen: Muli, Helvetica, Arial, sans-serif */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4 {
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.navbar, .btn {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: Mulish, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    
+    
+}
+
+footer {
+    font-family: Mulish, Helvetica, Arial, sans-serif;
+}
+
+/* .active {
+
+} */
+
+.phone-with-demo-screen {
+    position: relative;
+    display: block;
+    min-width: 334px;
+    max-width: 334px;
+}
+
+
+.demo-screen {
+    height: 77.5%;
+    left: 10.1%;
+    top: 11.4%;
+    position: absolute;
+    border-radius: 5px;
+    
+    
+}
+
+.jumbotron {
+    background: none
+}
+.bg-yellow {
+    background-color: rgb(253,202,77);
+}
+.btn-jumbotron:hover, .btn-jumbotron:focus, .btn-jumbotron:active {
+    color: #fff;
+    background-color: #fdcc52;
+    border-color: #fdcc52; /*set the color you want here*/
+    transition: 0.3ms;
+}
+
+.btn-jumbotron {
+    border-radius: 50px;
+    font-size: 70%;
+    letter-spacing: 3px;
+    opacity: 1;
+    max-width: 240px;
+
+}
+
+.btn-darkblue {
+    background-color: rgb(59,89,152);
+    color: white;
+}
+
+.bg-pattern {
+    background-image: url("../img/bg-pattern.png");
+    background-color: blueviolet;
+}
+
+.bg-cta {
+    background-image: url("../img/bg-cta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.grid-card-icon {
+    color: rgb(172,51,99);
+}
+
+footer {
+    font-size: smaller;
+}
+
+.link-white {
+    color: white;
+}
+a.link-white:hover, a.link-white:focus, a.link-white:active {
+    text-decoration: none;
+    color: #fdcc52;
+}
+
+.navbar-custom {
+    color: #343a40;
+}
+
+.navbar-brand {
+    color: #343a40;
+}
+a.navbar-brand:hover, a.navbar-brand:focus, a.navbar-brand:active {
+    color: #fdcc52;
+}
+
+.btn-darkblue:hover {
+    color:white
+}
